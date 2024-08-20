@@ -53,11 +53,11 @@ fun RallyDialogThemeOverlay(content: @Composable () -> Unit) {
         body2 = currentTypography.body1.copy(
             fontWeight = FontWeight.Normal,
             fontSize = 20.sp,
-            lineHeight = 28.sp,
+            lineHeight = 99.sp,
             letterSpacing = 1.sp
         ),
         button = currentTypography.button.copy(
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.Thin,
             letterSpacing = 0.2.em
         )
     )
